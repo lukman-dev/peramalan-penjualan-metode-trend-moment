@@ -1,0 +1,170 @@
+body{
+  background: #DEDEDE;
+}
+
+a{
+  color: #20a8d8;
+
+}
+
+a:hover{
+  color: #20a8d8;
+  text-decoration: none;
+}
+
+  nav{
+      width: 100%;
+      display: inline-block;
+      line-height: 80px;
+      background: white;
+      border-bottom: 1px solid #DEDEDE;
+  }
+
+  .logo{
+    /*background: blue;*/
+    margin-left: 20px;
+    font-size: 12pt;
+    float: left;
+    font-weight: bolder;
+  }
+
+  nav .menu ul{
+    margin-right: 80px;
+    float: right;
+    display: inline;
+    /*float: left;*/
+    width: 50%;
+    /*background: red;*/
+  }
+
+  nav .menu ul li{
+    text-align: center;
+    /*background: yellow;*/
+    display: inline-block;
+    width: 30%;
+    line-height: 80px;
+  }
+
+  nav .menu ul li a{
+    height: 40px;
+    color: #494949;
+  }
+
+  nav .menu ul li a:hover{
+    text-decoration: none;
+    color: #20a8d8;
+    }
+
+  nav .dropdown-custom{
+    /*background: yellow;*/
+    float: right;
+    margin-right: 70px;
+  }
+
+ 
+ nav .dropdown-custom a{
+  border: none !important;
+  color: #494949;
+ }
+
+ nav .dropdown-custom a:hover{
+  color: #20a8d8;
+  text-decoration: none;
+ }
+
+nav .dropdown-custom a:focus{
+  color: #20a8d8;
+  text-decoration: none;
+ }
+
+ .breadcrum-custom{
+    background: #F2F2F2;
+    height: 100px;
+    padding: 20px 0px 20px 50px;
+    margin-top: -5px
+ }
+
+ .breadcrum-custom h3{
+  margin-top: 0px;
+ }
+
+
+ .content{
+  margin-top: 30px;
+ }
+
+ .content .container{
+  padding: 40px;
+  border-top: 2.5px solid #20a8d8;
+  /*width: 1270px !important;*/
+    width: 95% !important;
+    background: white;
+  
+ }
+
+
+ footer{
+  margin-top: 30px;
+  width: 100%;
+  display: inline-block;
+  line-height: 90px;
+  background: #F2F2F2;
+  text-align: center;
+  font-size: 9pt;
+  color: #838383;
+  border-top: 1px solid #C7C7C7;
+
+ }
+
+ .btn-primary{
+  background: #20a8d8;
+  border-color: #20a8d8;
+ }
+
+.btn-primary:hover{
+  background: #1D9ECB;
+  border-color: #1D9ECB;
+ }
+
+.btn-primary:active{
+  background: #1D9ECB !important;
+  border-color: #1D9ECB !important;
+ }
+.btn-primary:focus{
+  background: #1D9ECB !important;
+  border-color: #1D9ECB !important;
+ }
+
+
+
+.btn-danger{
+  background: #263238;
+  border-color: #263238;
+ }
+
+.btn-danger:hover{
+  background: #1F282D;
+  border-color: #1F282D;
+ }
+
+.btn-danger:active{
+  background: #1F282D !important;
+  border-color: #1F282D !important;
+ }
+.btn-danger:focus{
+  background: #1F282D !important;
+  border-color: #1F282D !important;
+ }
+
+
+.p-blue{
+  color: #20a8d8 !important;
+}
+
+.form-control {
+  border-radius: 0px !important;
+}
+
+.dropdown-menu-custom{
+  left:-117px !important;
+}
